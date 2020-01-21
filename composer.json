@@ -13,21 +13,13 @@
         }
     ],
     "repositories": [{
-        "type": "package",
-        "package": {
-            "name": "rikuoro/string-encode",
-            "version": "dev-onecloud",
-            "source": {
-                "url": "https://github.com/rikuoro/string-encoder",
-                "type": "git",
-                "reference": "origin/onecloud"
-            }
-        }
+        "url": "https://github.com/rikuoro/string-encoder",
+        "type": "git"
     }],
     "require": {
         "php": ">=7.1",
         "ext-mbstring": "*",
-        "rikuoro/string-encode": "dev-onecloud",
+        "paquettg/string-encode": "dev-onecloud",
         "ext-zlib": "*",
         "ext-curl": "*"
     },
