@@ -1,5 +1,5 @@
 {
-    "name": "paquettg/php-html-parser",
+    "name": "rikuoro/php-html-parser",
     "type": "library",
     "description": "An HTML DOM parser. It allows you to manipulate HTML. Find tags on an HTML page with selectors just like jQuery.",
     "keywords": ["html", "dom", "parser"],
@@ -12,10 +12,14 @@
             "homepage": "http://gillespaquette.ca"
         }
     ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/rikuoro/string-encoder"
+    }],
     "require": {
         "php": ">=7.1",
         "ext-mbstring": "*",
-        "paquettg/string-encode": "~1.0.0",
+        "paquettg/string-encode": "dev-onecloud",
         "ext-zlib": "*",
         "ext-curl": "*"
     },
