@@ -14,12 +14,12 @@
     ],
     "repositories": [{
         "url": "https://github.com/rikuoro/string-encoder",
-        "type": "git"
+        "type": "vcs"
     }],
     "require": {
         "php": ">=7.1",
         "ext-mbstring": "*",
-        "paquettg/string-encode": "dev-onecloud",
+        "paquettg/string-encode": "dev-master",
         "ext-zlib": "*",
         "ext-curl": "*"
     },
