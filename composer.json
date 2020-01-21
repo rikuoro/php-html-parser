@@ -19,7 +19,7 @@
     "require": {
         "php": ">=7.1",
         "ext-mbstring": "*",
-        "paquettg/string-encode": "dev-onecloud",
+        "rikuoro/string-encode": "dev-onecloud",
         "ext-zlib": "*",
         "ext-curl": "*"
     },
