@@ -333,6 +333,10 @@ class Tag
 
         // add the attributes
         foreach (array_keys($this->attr) as $key) {
+            // echo "Attribute value : ";var_dump($key);
+            if (gettype($key) == "integer" || empty($key)) {
+                continue;
+            }
             $info = $this->getAttribute($key);
             $val  = $info['value'];
             if (is_null($val)) {
