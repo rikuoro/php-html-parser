@@ -239,7 +239,7 @@ class Content
         // make it chainable if they don't want a copy
         $return = $this;
         if ($copy) {
-            $return = substr($this->content, $this->pos, $len);
+            $return = substr($this->content, $this->pos, intval($len));
             if ($return === false) {
                 throw new LogicalException('Substr returned false with position '.$this->pos.'.');
             }
